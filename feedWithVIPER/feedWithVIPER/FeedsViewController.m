@@ -77,6 +77,13 @@ static NSString * const FeedCellIdentifier = @"FeedCell";
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSMutableDictionary *data = self.data[indexPath.row];
+    JXTFeedModel *feed = [data objectForKey:@"feed"];
+    [self.feedDetailWireframeInterface navigationToWithFeedId:feed.id FromViewController:self];
+}
+
 #pragma mark - property
 - (UITableView *)tableView
 {

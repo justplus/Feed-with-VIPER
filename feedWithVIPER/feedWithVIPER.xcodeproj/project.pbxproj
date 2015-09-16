@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301C1C331BA83294007FB6AA /* FeedWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C1C321BA83294007FB6AA /* FeedWireframe.m */; };
+		301C1C3A1BA8F166007FB6AA /* FeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C1C391BA8F166007FB6AA /* FeedDetailViewController.m */; };
+		301C1C3D1BA8F18B007FB6AA /* FeedDetailWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C1C3C1BA8F18B007FB6AA /* FeedDetailWireframe.m */; };
+		301C1C411BA8F339007FB6AA /* FeedDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C1C401BA8F339007FB6AA /* FeedDetailInteractor.m */; };
 		305756741BA3E4E5003E887E /* JXTLinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 305756731BA3E4E5003E887E /* JXTLinkModel.m */; };
 		305756771BA3E7E2003E887E /* JXTFeedModel+FeedExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 305756761BA3E7E2003E887E /* JXTFeedModel+FeedExtension.m */; };
 		3057567A1BA3E804003E887E /* JXTFeedModel+HomeworkExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 305756791BA3E804003E887E /* JXTFeedModel+HomeworkExtension.m */; };
@@ -45,6 +49,15 @@
 
 /* Begin PBXFileReference section */
 		2D56171084E0D2E1365F157B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		301C1C311BA83294007FB6AA /* FeedWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedWireframe.h; sourceTree = "<group>"; };
+		301C1C321BA83294007FB6AA /* FeedWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedWireframe.m; sourceTree = "<group>"; };
+		301C1C381BA8F166007FB6AA /* FeedDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailViewController.h; sourceTree = "<group>"; };
+		301C1C391BA8F166007FB6AA /* FeedDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailViewController.m; sourceTree = "<group>"; };
+		301C1C3B1BA8F18B007FB6AA /* FeedDetailWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailWireframe.h; sourceTree = "<group>"; };
+		301C1C3C1BA8F18B007FB6AA /* FeedDetailWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailWireframe.m; sourceTree = "<group>"; };
+		301C1C3F1BA8F339007FB6AA /* FeedDetailInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailInteractor.h; sourceTree = "<group>"; };
+		301C1C401BA8F339007FB6AA /* FeedDetailInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailInteractor.m; sourceTree = "<group>"; };
+		301C1C421BA8F360007FB6AA /* FeedDetailInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailInteractorIO.h; sourceTree = "<group>"; };
 		305756711BA3E0D2003E887E /* FeedsInteractorIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedsInteractorIO.h; sourceTree = "<group>"; };
 		305756721BA3E4E5003E887E /* JXTLinkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTLinkModel.h; sourceTree = "<group>"; };
 		305756731BA3E4E5003E887E /* JXTLinkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTLinkModel.m; sourceTree = "<group>"; };
@@ -55,6 +68,8 @@
 		3057567C1BA41458003E887E /* FeedMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedMacro.h; sourceTree = "<group>"; };
 		3057567D1BA415AA003E887E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		3057567E1BA415AA003E887E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		308DE53F1BA999900096D2A5 /* FeedDetailViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailViewInterface.h; sourceTree = "<group>"; };
+		308DE5401BA99D380096D2A5 /* FeedDetailWireframeInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailWireframeInterface.h; sourceTree = "<group>"; };
 		30FC79E41BA016B8006CDB97 /* feedWithVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feedWithVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FC79E81BA016B8006CDB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FC79E91BA016B8006CDB97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +142,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		301C1C341BA83415007FB6AA /* FeedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				301C1C3E1BA8F31A007FB6AA /* Interactor */,
+				301C1C371BA8F073007FB6AA /* Wireframe */,
+				301C1C361BA8F06B007FB6AA /* View */,
+			);
+			name = FeedDetail;
+			sourceTree = "<group>";
+		};
+		301C1C361BA8F06B007FB6AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				301C1C381BA8F166007FB6AA /* FeedDetailViewController.h */,
+				301C1C391BA8F166007FB6AA /* FeedDetailViewController.m */,
+				308DE53F1BA999900096D2A5 /* FeedDetailViewInterface.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		301C1C371BA8F073007FB6AA /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				301C1C3B1BA8F18B007FB6AA /* FeedDetailWireframe.h */,
+				301C1C3C1BA8F18B007FB6AA /* FeedDetailWireframe.m */,
+				308DE5401BA99D380096D2A5 /* FeedDetailWireframeInterface.h */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		301C1C3E1BA8F31A007FB6AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				301C1C3F1BA8F339007FB6AA /* FeedDetailInteractor.h */,
+				301C1C401BA8F339007FB6AA /* FeedDetailInteractor.m */,
+				301C1C421BA8F360007FB6AA /* FeedDetailInteractorIO.h */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
 		3057567B1BA41449003E887E /* Macro */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +216,7 @@
 			children = (
 				30FC7A221BA3A850006CDB97 /* Common */,
 				30FC7A0D1BA01703006CDB97 /* FeedList */,
+				301C1C341BA83415007FB6AA /* FeedDetail */,
 				30FC79EB1BA016B8006CDB97 /* AppDelegate.h */,
 				30FC79EC1BA016B8006CDB97 /* AppDelegate.m */,
 				30FC79EE1BA016B8006CDB97 /* ViewController.h */,
@@ -234,6 +290,8 @@
 		30FC7A101BA0172A006CDB97 /* Wireframe */ = {
 			isa = PBXGroup;
 			children = (
+				301C1C311BA83294007FB6AA /* FeedWireframe.h */,
+				301C1C321BA83294007FB6AA /* FeedWireframe.m */,
 			);
 			name = Wireframe;
 			sourceTree = "<group>";
@@ -476,9 +534,11 @@
 			files = (
 				30FC79F01BA016B8006CDB97 /* ViewController.m in Sources */,
 				30FC7A1B1BA02471006CDB97 /* JXTUserModel.m in Sources */,
+				301C1C411BA8F339007FB6AA /* FeedDetailInteractor.m in Sources */,
 				3057567A1BA3E804003E887E /* JXTFeedModel+HomeworkExtension.m in Sources */,
 				30FC7A331BA3C2C6006CDB97 /* HomeworkCell.m in Sources */,
 				305756771BA3E7E2003E887E /* JXTFeedModel+FeedExtension.m in Sources */,
+				301C1C3D1BA8F18B007FB6AA /* FeedDetailWireframe.m in Sources */,
 				30FC7A141BA01DA2006CDB97 /* FeedsDataManager.m in Sources */,
 				3057567F1BA415AA003E887E /* NSString+Extension.m in Sources */,
 				30FC7A181BA0245B006CDB97 /* JXTFeedModel.m in Sources */,
@@ -486,10 +546,12 @@
 				30FC7A491BA3D8BA006CDB97 /* M80AttributedLabelURL.m in Sources */,
 				30FC7A1E1BA3A799006CDB97 /* FeedsInteractor.m in Sources */,
 				30FC79ED1BA016B8006CDB97 /* AppDelegate.m in Sources */,
+				301C1C331BA83294007FB6AA /* FeedWireframe.m in Sources */,
 				30FC7A211BA3A7CE006CDB97 /* FeedsViewController.m in Sources */,
 				30FC7A471BA3D8BA006CDB97 /* M80AttributedLabel.m in Sources */,
 				30FC7A371BA3C7BB006CDB97 /* FeedCell.m in Sources */,
 				30FC7A271BA3A898006CDB97 /* JXTArrayDataSource.m in Sources */,
+				301C1C3A1BA8F166007FB6AA /* FeedDetailViewController.m in Sources */,
 				30FC79EA1BA016B8006CDB97 /* main.m in Sources */,
 				305756741BA3E4E5003E887E /* JXTLinkModel.m in Sources */,
 				30FC7A4A1BA3D8BA006CDB97 /* NSMutableAttributedString+M80.m in Sources */,

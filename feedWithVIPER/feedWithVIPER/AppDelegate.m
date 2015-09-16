@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "FeedsViewController.h"
 #import "FeedsInteractor.h"
+#import "FeedDetailWireframe.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,8 @@
     FeedsInteractor *feedsInteractor = [FeedsInteractor new];
     feedsInteractor.feedsViewInterface = feedsVC;
     feedsVC.feedsInteractorIO = feedsInteractor;
+    FeedDetailWireframe *detailWireframe = [FeedDetailWireframe new];
+    feedsVC.feedDetailWireframeInterface = detailWireframe;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:feedsVC];
     self.window.rootViewController = nav;
     return YES;
